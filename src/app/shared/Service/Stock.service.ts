@@ -7,7 +7,7 @@ import { HttpClient} from '@angular/common/http';
   providedIn: 'root'
 })
 export class StockService {
-  readonly API_URL = 'http://192.168.188.162:8002/SpringMVC/stock';
+  readonly API_URL = 'http://192.168.188.21:8002/SpringMVC/stock';
 
   constructor(private httpClient: HttpClient) { }
 
