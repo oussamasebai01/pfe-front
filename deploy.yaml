@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: frontend-app
-        image: oussamasebai/front_pfe:1.1
+        image: oussamasebai/front_pfee:1.1
         ports:
         - containerPort: 80
 ---
